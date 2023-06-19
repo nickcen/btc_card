@@ -1,0 +1,7 @@
+.c_brand {
+  color: var(--adm-color-primary);
+}
+
+.bg_brand {
+  background-color: var(--adm-color-primary);
+}

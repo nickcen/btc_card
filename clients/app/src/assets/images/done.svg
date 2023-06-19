@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Astro-Card激活完成" transform="translate(-140.000000, -320.000000)" fill-rule="nonzero">
+            <g id="编组" transform="translate(140.000000, 320.000000)">
+                <rect id="矩形" fill="#3A3A49" x="0" y="0" width="80" height="80" rx="40"></rect>
+                <text id="🎉" font-family="AppleColorEmoji, Apple Color Emoji" font-size="60" font-weight="normal" line-spacing="66" fill="#FFFFFF">
+                    <tspan x="10" y="67">🎉</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

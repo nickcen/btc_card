@@ -1,0 +1,33 @@
+/* tslint:disable */
+/* eslint-disable */
+
+import React, { CSSProperties, SVGAttributes, FunctionComponent } from 'react';
+import { getIconColor } from './helper';
+
+interface Props extends Omit<SVGAttributes<SVGElement>, 'color'> {
+  size?: number;
+  color?: string | string[];
+}
+
+const DEFAULT_STYLE: CSSProperties = {
+  display: 'block',
+};
+
+const IconFiger: FunctionComponent<Props> = ({ size, color, style: _style, ...rest }) => {
+  const style = _style ? { ...DEFAULT_STYLE, ..._style } : DEFAULT_STYLE;
+
+  return (
+    <svg viewBox="0 0 1024 1024" width={size + 'px'} height={size + 'px'} style={style} {...rest}>
+      <path
+        d="M401.287396 970.638222L493.561173 904.533333c-108.259556-138.012444-161.450667-273.749333-161.450666-408.120889 0-116.622222 51.086222-165.432889 172.999111-165.432888s172.999111 48.810667 172.999111 165.432888c0 104.049778 64.284444 165.489778 172.942222 165.489778 108.657778 0 172.942222-61.44 172.942222-165.489778C1026.951396 171.918222 847.182507 0 505.223396 0 1.415396 0-154.289493 574.407111 169.237618 1024l95.004444-62.520889C-13.603271 575.260444 112.405618 110.364444 505.109618 110.364444c278.186667 0 405.959111 122.197333 403.569778 385.592889 0 43.52-12.629333 55.580444-57.628445 55.580445-45.056 0-57.685333-11.946667-57.685333-55.125334 0-177.493333-102.684444-275.740444-288.256-275.740444-185.628444 0-288.312889 98.247111-288.312889 275.740444 0 159.857778 62.065778 318.236444 184.490667 474.282667z m157.866666-541.582222l-118.499555 4.152889c13.084444 312.718222 130.275556 482.986667 355.84 482.986667V808.391111c-145.749333 0-226.304-117.077333-237.340445-379.278222z"
+        fill={getIconColor(color, 0, '#16FFBB')}
+      />
+    </svg>
+  );
+};
+
+IconFiger.defaultProps = {
+  size: 24,
+};
+
+export default IconFiger;

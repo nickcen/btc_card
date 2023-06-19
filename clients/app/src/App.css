@@ -1,0 +1,31 @@
+.app-container {
+  background-color: #0B0B0F;
+  max-width: 540px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 1.25rem;
+  /* Use vh as a fallback for browsers that do not support Custom Properties */
+  min-height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+  flex-direction: column;
+  white-space: pre-wrap;
+}
+
+.app-header {
+  flex: 0 1;
+  padding: 40px 20px 0;
+}
+
+.app-body {
+  flex: 1 1;
+  position: relative;
+}
+
+.app-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+

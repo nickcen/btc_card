@@ -1,0 +1,26 @@
+[
+    {
+        "category": "dapp",
+        "package": "btc_wallet",
+        "bin_name": "btc-wallet",
+        "post_install_sequence": 100,
+        "no_deploy": true,
+        "no_build": false
+    },
+    {
+        "category": "infra",
+        "package": "card_controller",
+        "bin_name": "card-controller",
+        "post_install_sequence": 100,
+        "no_deploy": true,
+        "no_build": false
+    },
+    {
+        "category": "infra",
+        "package": "card_provider",
+        "bin_name": "card-provider",
+        "post_install_sequence": 100,
+        "no_deploy": true,
+        "no_build": false
+    }
+]

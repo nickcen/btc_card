@@ -1,0 +1,131 @@
+body {
+  color: #9c9ca4;
+
+  .adm-list-item-description .adm-form-item-feedback-error:not(:first-child) {
+    display: none;
+  }
+
+  .adm-list-body-inner {
+    margin-top: 0;
+  }
+
+  .adm-button {
+    &.adm-button-default {
+      border: 0 !important;
+      background: #4a4a4f;
+    }
+
+    &.adm-button-primary {
+      border: 0 !important;
+      line-height: 1.8;
+      font-size: 16px;
+      font-weight: 700;
+      background: linear-gradient(135.41deg, #F3962B 0%, #F3962B 72.49%);
+    }
+  }
+
+  .adm-tabs {
+    &.account-tabs {
+      .adm-tabs-header {
+        border: 0;
+      }
+
+      .adm-tabs-tab-list {
+        display: inline-flex;
+      }
+    }
+  }
+
+  .adm-popup-body {
+    background-color: #23232f;
+  }
+
+  .adm-auto-center-content {
+    word-break: break-word;
+  }
+
+  .adm-list-item {
+    &:active {
+      background-color: #23232f;
+    }
+
+    &.adm-plain-anchor {
+      border-radius: 10px;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+
+  .adm-steps {
+    &.transaction-status {
+      .adm-step-title {
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .adm-button {
+    &.adm-button-disabled {
+      opacity: 1;
+    }
+  }
+
+  .adm-input-element,
+  .adm-text-area-element {
+    color: #fff;
+    padding: 10px 16px;
+    border: 1px solid #3a3a49;
+    border-radius: 10px;
+
+    &:focus {
+      border-color: #8043ff;
+    }
+  }
+
+  .adm-form-item {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1.25rem;
+    padding-left: 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .adm-list-item-content-main {
+      padding: 0;
+    }
+
+    .adm-list-item-content {
+      padding: 0;
+    }
+
+    .adm-form-item-child {
+      border-radius: 8px;
+      background-color: #3a3a49;
+      background: #3a3a49;
+    }
+
+    .custom-input {
+      .adm-input-element {
+        color: #fff;
+        line-height: 1em;
+        min-height: 1em;
+        font-family: Mono;
+        padding: 5px 16px;
+
+        &::-webkit-input-placeholder {
+          font-size: 16px;
+          height: 40px;
+          position: relative;
+          top: -8px;
+          line-height: 24px !important;
+          margin-top: -10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "symbol_url": "//at.alicdn.com/t/c/font_2998657_6fkokiy8iku.js",
+  "use_typescript": true,
+  "save_dir": "./src/components/iconfont",
+  "trim_icon_prefix": "icon",
+  "unit": "px",
+  "default_icon_size": 24
+}

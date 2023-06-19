@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "lib/types",
+    "lib/tecdsa",
+    "infra/card_provider/actor",
+    "infra/card_provider/mod",
+    "infra/card_controller/actor",
+    "infra/card_controller/mod",
+    "dapp/btc_wallet/actor",
+    "dapp/btc_wallet/mod",
+]
+
+[profile.release]
+lto = true
+opt-level = 'z'
